@@ -1,0 +1,126 @@
+.url-fiche-identite a{
+	color:red;
+}
+
+.statut-entreprise::before{
+	content : "Statut de l'entreprise : ";
+	color:red;
+}
+
+.denomination::before{
+	content : "Dénomination de l'entreprise : ";
+	color:red;
+}
+
+.siren::before{
+	content : "Siren de l'entreprise : ";
+	color:red;
+}
+
+.date_immatriculation::before{
+	content : "Date d'immatriculation de l'entreprise : ";
+	color:red;
+}
+
+.ville::before{
+	content : "Ville de l'entreprise : ";
+	color:red;
+}
+
+.geolocalisationLatitude::before{
+	content : "Latitude : ";
+	color:red;
+}
+
+.geolocalisationLongitude::before{
+	content : "Longitude : ";
+	color:red;
+}
+
+.adresse::before{
+	content : "Adresse postale de l'entreprise : ";
+	color:red;
+}
+
+.code_postal::before{
+	content : "Code postal de l'entreprise : ";
+	color:red;
+}
+
+.departement::before{
+	content : "Département de l'entreprise : ";
+	color:red;
+}
+
+.devise::before{
+	content : "Devise bancaire de l'entreprise : ";
+	color:red;
+}
+
+.nic::before{
+	content : "NIC de l'entreprise : ";
+	color:red;
+}
+
+.forme_juridique::before{
+	content : "Forme juridique de l'entreprise : ";
+	color:red;
+}
+
+.region::before{
+	content : "Région de l'entreprise : ";
+	color:red;
+}
+
+.num_dept::before{
+	content : "Numéro du département : ";
+	color:red;
+}
+
+.date_de_publication::before{
+	content : "Date de publication : ";
+	color:red;
+}
+
+.date_immatriculation_origine::before{
+	content : "Date immatriculation origine : ";
+	color:red;
+}
+
+.greffe::before{
+	content : "Greffe : ";
+	color:red;
+}
+
+.etat::before{
+	content : "Etat en cours : ";
+	color:red;
+}
+
+.code_greffe::before{
+	content : "Code greffe : ";
+	color:red;
+}
+
+.etat_pub::before{
+	content : "Etat de publication : ";
+	color:red;
+}
+
+.url-fiche-identite::before{
+	content : "Lien : \1F517";
+	color:red;
+}
+
+.une-entreprise{
+	margin-bottom:10px;
+	border:2px solid black;
+}
+
+.titre{
+	text-align:center;
+	font-weight::bolder;
+	font-size:250%;
+	margin-top:2%;
+	margin-bottom:2%;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+<name>Creation entreprises locale</name>
+<author>sebastien lhuillier</author>
+<version>1.0.0</version>
+<description>Module listants les entreprises créées dans le département de votre choix.</description>
+	<files>
+		<filename>mod_entjca.xml</filename>
+		<filename module = "mod_entjca">mod_entjca.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	   <config>
+      <fields name="params">
+        <fieldset name="basic">
+			<field name="noteDpt" type="note" label="Note" description="Veuillez saisir le nombre représentant le département (Ex. :  54)"  />
+			<field name="greffe" type="text" default="NANCY" label="Greffe (https://opendata.datainfogreffe.fr/pages/mongreffe/)" description="Nom du greffe" size="10" />
+        </fieldset>
+      </fields>
+    </config>
+</extension>
